@@ -1,0 +1,27 @@
+{
+  "name": "repo-description-automation",
+  "version": "1.0.0",
+  "description": "Automate GitHub repository descriptions with AI-powered generation",
+  "main": "src/index.js",
+  "bin": {
+    "gh-desc": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "github",
+    "description",
+    "automation",
+    "ai"
+  ],
+  "author": "Yoshikondo",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
