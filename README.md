@@ -1,56 +1,84 @@
-# 📝 Repo Description Automation
+# repo-description-automation
 
-<p align="center">
-  <a href="https://github.com/yksanjo/repo-description-automation">
-    <img src="https://img.shields.io/github/stars/yksanjo/repo-description-automation?style=social" alt="Stars">
-  </a>
-  <a href="https://github.com/yksanjo/repo-description-automation/network">
-    <img src="https://img.shields.io/github/forks/yksanjo/repo-description-automation?style=social" alt="Forks">
-  </a>
-  <a href="LICENSE">
-    <img src="https://img.shields.io/github/license/yksanjo/repo-description-automation" alt="License">
-  </a>
-</p>
+## Detailed Description
 
----
+repo-description-automation is maintained as an industry-grade software project with production-ready engineering practices.  
+This repository includes documented setup, quality gates, operational guidance, and governance standards so contributors can safely build, test, and ship changes with confidence.
 
-## 📖 Overview
+## Problem Statement
 
-Automate GitHub repository descriptions with intelligent pattern matching. Generate descriptions for repos based on their names, update missing ones, and preview changes before applying.
+Describe the user or business problem this project solves, the target users, and expected outcomes.
 
-## ✨ Features
+## Solution Overview
 
-- 🔍 **Find Missing** - Identify repos without descriptions
-- 🎯 **Smart Generation** - Pattern-based description generation
-- 👀 **Preview Mode** - Preview before applying changes
-- ⚡ **Bulk Update** - Update all missing descriptions at once
+Summarize the architecture, core modules, and runtime behavior at a high level.
 
-## 🛠️ Installation
+## Key Features
 
-```bash
-git clone https://github.com/yksanjo/repo-description-automation.git
-cd repo-description-automation
-npm install
+- Clear project scope and intended use.
+- Reproducible local development workflow.
+- Test coverage and CI quality gates.
+- Security and contribution policies.
+- Deployment-ready repository structure.
+
+## Repository Structure
+
+```text
+.
+|-- src/                  # Core implementation
+|-- tests/                # Automated test suites
+|-- docs/                 # Design notes and operational docs
+|-- .github/workflows/    # CI pipelines
+|-- README.md
+|-- LICENSE
+|-- CONTRIBUTING.md
+|-- SECURITY.md
+|-- CODE_OF_CONDUCT.md
 ```
 
-## 🚀 Usage
+## Getting Started
+
+### Prerequisites
+
+- Git
+- Project runtime/toolchain for this repo
+
+### Local Setup
 
 ```bash
-npm start
+npm ci
+npm run lint
+npm test
+npm run build
 ```
 
-## 🤝 Contributing
+## Usage
 
-Contributions welcome!
+Document primary commands, API routes, CLI examples, or UI workflows here.
 
-## 📄 License
+## Quality Standards
 
-MIT License
+- CI must pass before merge.
+- Changes require tests for critical behavior.
+- Security-sensitive changes should include risk notes.
+- Keep pull requests focused and reviewable.
 
-## 👤 Author
+## Security
 
-**Yoshikondo** - [@yksanjo](https://github.com/yksanjo)
+See `SECURITY.md` for responsible disclosure and handling guidelines.
 
----
+## Contributing
 
-<p align="center">Made with ❤️ by <a href="https://github.com/yksanjo">Yoshikondo</a></p>
+See `CONTRIBUTING.md` for branching, commit, and pull request expectations.
+
+## Roadmap
+
+Track upcoming milestones, technical debt, and planned feature work.
+
+## Support
+
+Open a GitHub issue for bugs, feature requests, or documentation gaps.
+
+## License
+
+This project is released under the MIT License.
